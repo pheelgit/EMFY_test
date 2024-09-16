@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>EMFY test</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <table id="deals-table">
+        <thead>
+        <tr>
+          <th>ID</th>
+          <th>Название</th>
+          <th>Бюджет</th>
+        </tr>
+        </thead>
+        <tbody id="deals-body"></tbody>
+      </table>
+
+    </div>
+    <script
+            class="amocrm_oauth"
+            charset="utf-8"
+            data-client-id="dde7bcce-8f4a-476b-897a-0af1209af5be"
+            data-title="Button"
+            data-compact="false"
+            data-class-name="className"
+            data-color="default"
+            data-state="state"
+            data-error-callback="functionName"
+            data-mode="popup"
+            src="https://www.amocrm.ru/auth/button.min.js"
+    ></script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
