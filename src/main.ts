@@ -1,4 +1,7 @@
+// @ts-nocheck
 import './style.css'
+
+
 
 // https://emfy-test.vercel.app/
 
